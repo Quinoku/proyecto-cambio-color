@@ -1,3 +1,5 @@
+/* PAGINA DE ESTILOS CON COMENTARIOS EXTRA RELEVANTES DE AQUELLAS PROPIEDADES MÁS DESTACADAS O POCO COMUNES */
+
 *{
      margin: 0;
      padding: 0;
@@ -28,14 +30,14 @@ ul li{
      height: 20%;
      width: 100%;
      list-style: none;
-     mix-blend-mode: hue;
+     mix-blend-mode: hue; /* forma de fusión del fondo y de la sombra que vamos a crear */
 }
 
-ul:hover li{
+ul:hover li{ /* Le damos 0 opacidad cada vez que el cursor entre en el ul, así todos desaparecen al hacer hover por todo el menu */
      opacity: 0;
 }
 
-ul li:hover{ 
+ul li:hover{ /* Le damos opacidad 2 al elemento del menu sobre el que estemos, así todo el menú se vuelve de ese color */
      opacity: 1;
 }
 
@@ -63,6 +65,7 @@ ul li:nth-child(5){
 
 
 /* Hover del menu  */
+/* Al hacer hover creará una sombra que ocupa toda la pantalla */
 ul li:hover:nth-child(1){
      box-shadow: 0 0 0 1900px #f4df92;
 }
